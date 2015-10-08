@@ -3,12 +3,12 @@
   "name": "Codelab",
   "version": "1",
   "icons": {
-    "128": "icon_128.png"
+    "128": "./resources/icon_128.png"
   },
   "permissions": [],
   "app": {
     "background": {
-      "scripts": ["jquery.min.js", "background.js"],
+      "scripts": ["./resources/jquery.min.js", "./src/background.js"],
       "matches": [ "http://*/*", "https://*/*"]
     }
   },
